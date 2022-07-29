@@ -92,6 +92,7 @@ line-height: 1.143;
 letter-spacing: 0.02em;
 
 color: #2196F3;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header:focus {
@@ -103,6 +104,7 @@ color: #2196F3;
     letter-spacing: 0.02em;
     
     color: #2196F3;  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .mail {
@@ -126,6 +128,7 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #2196F3;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .mail:focus {
@@ -137,6 +140,7 @@ color: #2196F3;
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .tel {
@@ -160,6 +164,7 @@ color: #2196F3;
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .tel:focus {
@@ -171,6 +176,7 @@ color: #2196F3;
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .mail:hover {
@@ -182,6 +188,7 @@ color: #2196F3;
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     
 }
 
@@ -194,6 +201,7 @@ color: #2196F3;
     letter-spacing: 0.02em;
     
     color: #2196F3;  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .tel:hover {
@@ -205,6 +213,7 @@ color: #2196F3;
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     
 }
 
@@ -217,6 +226,7 @@ color: #2196F3;
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .eff {
@@ -384,6 +394,7 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF;
 border: 0;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .but1:focus {
@@ -404,6 +415,7 @@ letter-spacing: 0.03em;
 
 color: #FFFFFF;
 border: 0;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 ul {
@@ -483,6 +495,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .li2:focus {
@@ -494,6 +507,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     
     color: #2196F3;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .inline {
@@ -595,7 +609,7 @@ align-items: center;
 header {
 
     margin: 0 auto;
-    padding: 24px 0;
+
 }
 
 .li1:not(.notli1) {
@@ -683,6 +697,8 @@ width: 370px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     height: 404px;
     width: 370px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .ulpoli:focus {
@@ -691,6 +707,9 @@ width: 370px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     height: 404px;
     width: 370px; 
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -705,6 +724,7 @@ width: 370px;
     border: 1px solid #EEEEEE;
     height: 404px;
     width: 370px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .notlipo:focus {
@@ -712,6 +732,7 @@ width: 370px;
     border: 1px solid #EEEEEE;
     height: 404px;
     width: 370px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .adre {
@@ -821,12 +842,14 @@ border-radius: 4px;
 .sli:hover, .sli:focus {
     border-radius: 50%;
     background-color: var(--accent);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .sli:hover .icon,
 .sli:focus .icon
 {
     fill: var(--bg-body);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .contact-icon {
@@ -877,11 +900,13 @@ border-radius: 4px;
 .company-link:hover,
 .company-link:focus{
     border-color: var(--accent);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .company-link:hover .icon-client,
 .company-link:focus .icon-client{
     fill: var(--accent);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -937,6 +962,7 @@ border-radius: 4px;
 .footer-social .sl:focus, 
 .footer-social .sl:hover{
     background-color: var(--accent);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -1092,4 +1118,71 @@ gap: 30px;
 .baseline {
     display: flex;
     align-items: baseline;
+}
+
+
+.active-page {
+    color:  #2196F3;
+    border-bottom: 2px solid #2196F3;
+}
+
+.active-page::after {
+    border-bottom: 2px solid #2196F3;
+}
+
+.li1 {
+
+}
+
+.ulh .header {
+display: block;
+padding-bottom: 32px;
+padding-top: 32px;
+}
+
+.what-we-do .signature {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: 70px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--bg-body);
+    background: rgba(47, 48, 58, 0.8);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+
+
+.overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.textover {
+    position: absolute;
+    top: 101%;
+    left: 0;
+    width: 100%;
+    padding: 63px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--bg-body);
+    background-color: var(--card-overlay);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
