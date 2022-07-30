@@ -128,7 +128,8 @@ line-height: 16px;
 letter-spacing: 0.02em;
 
 color: #2196F3;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+fill: #2196F3;
 }
 
 .mail:focus {
@@ -140,7 +141,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     letter-spacing: 0.02em;
     
     color: #2196F3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196F3;
 }
 
 .tel {
@@ -164,7 +166,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     letter-spacing: 0.02em;
     
     color: #2196F3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196F3;
 }
 
 .tel:focus {
@@ -176,7 +179,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     letter-spacing: 0.02em;
     
     color: #2196F3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196F3;
 }
 
 .mail:hover {
@@ -188,7 +192,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     letter-spacing: 0.02em;
     
     color: #2196F3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196F3;
     
 }
 
@@ -201,7 +206,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     letter-spacing: 0.02em;
     
     color: #2196F3;  
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196F3;
 }
 
 .tel:hover {
@@ -213,9 +219,27 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     letter-spacing: 0.02em;
     
     color: #2196F3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196F3;
     
 }
+
+.mail:hover .contact-icon {
+    fill: #2196F3;
+}
+
+.tel:hover .contact-icon {
+    fill: #2196F3;
+}
+
+.mail:focus .contact-icon {
+    fill: #2196F3;
+}
+
+.tel:focus .contact-icon {
+    fill: #2196F3;
+}
+
 
 .tel:focus {
     font-family: 'Roboto';
@@ -226,7 +250,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     letter-spacing: 0.02em;
     
     color: #2196F3;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #2196F3;
 }
 
 .eff {
@@ -616,7 +641,7 @@ header {
 margin-left: 50px;
 }
 
-.li2 {
+.li2:not(.mail) {
 margin-left: 50px;
 }
 
@@ -667,6 +692,10 @@ color: #212121;
 
 }
 
+.imgrel {
+    position: relative;
+}
+
 .sec4 {
     display: flex;
     flex-direction: row;
@@ -693,23 +722,6 @@ width: 370px;
 
 .ulpoli:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    border: 1px solid #EEEEEE;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    height: 404px;
-    width: 370px;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1)
-}
-
-.ulpoli:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    border: 1px solid #EEEEEE;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    height: 404px;
-    width: 370px; 
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 
@@ -1142,9 +1154,9 @@ padding-top: 32px;
 
 .what-we-do .signature {
     width: 100%;
-    position: relative;
+    position: absolute;
     left: 0;
-    bottom: 70px;
+    bottom: 0px;
     padding-top: 27px;
     padding-bottom: 27px;
     font-weight: 700;
@@ -1186,6 +1198,38 @@ color: #FFFFFF;
     background-color: var(--card-overlay);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
+
+
+
+.ulpoli:hover .textover {
+    top: 0%;
+    background: rgba(33, 150, 243, 0.9);
+    left: 0;
+    width: 100%;
+    padding: 63px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--bg-body);
+    transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    position: absolute;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+
+
+
 
 .eff1 {
     margin-bottom: 30px;
