@@ -1194,7 +1194,13 @@ color: #FFFFFF;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
+.textover {
 
+}
+
+.ulpoli .textover {
+
+}
 
 .ulpoli:hover .textover {
     top: 0%;
@@ -1223,7 +1229,32 @@ color: #FFFFFF;
 
 }
 
+.ulpoli .textover {
 
+    background: rgba(33, 150, 243, 0.9);
+
+    width: 100%;
+    padding: 63px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--bg-body);
+    transition: top 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    position: absolute;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
 
 
 .eff1 {
@@ -1238,6 +1269,7 @@ color: #FFFFFF;
     top: 0;
     left: 0;
     z-index: 20;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .modal {
